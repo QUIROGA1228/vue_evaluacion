@@ -1,0 +1,70 @@
+.container-body{
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+}
+.container-main{
+    display: flex;
+    flex-flow: row;
+    width: 100vw;
+    height: calc(100vh - 3.8rem);
+}
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    color: white;
+    background-color: white;
+}
+
+.navbar button{
+    position: relative;
+    background-color: rgb(236, 161, 22);
+    border-radius: 2rem ;
+    width: 5vw;
+    height:  5vh;
+    top: -0.5rem;
+}
+
+aside {
+    display: flex;
+    flex-flow: row;
+    flex: .2;
+    background-color: rgb(38, 43, 71);
+    height: 100%;
+    width: 100%;
+
+}
+
+#a{
+    color: white;
+}
+#card{
+    background-color: rgb(39, 46, 88);
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+}
+
+#nav #sear{
+    position: relative;
+    display: flex;  
+    flex-flow: row;
+    right: 12vw;
+    border-radius: none;
+    width: 100vh;
+    height: 3.9vw;
+    top: -0.6rem;
+}
+
+#nav #sear button{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(236, 161, 22);
+    width: 3rem;
+    top: 0.5rem;
+    align-items: center;
+}
