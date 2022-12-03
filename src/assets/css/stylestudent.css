@@ -68,3 +68,11 @@ main{
     top: 0.5rem;
     align-items: center;
 }
+
+#tab{
+    background-color: orange;
+}
+
+#table{
+    background-color: white;
+}

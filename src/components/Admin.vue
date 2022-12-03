@@ -47,16 +47,17 @@
           <div class="contenido_table">
             <table class="table table-striped table-hover">
               <thead>
-                <tr>
+                <tr id="tab">
                   <th scope="col">name</th>
                   <th scope="col">apellido</th>
                   <th scope="col">dni</th>
                   <th scope="col">email</th>
                   <th scope="col">address</th>
+                  <th scope="col"></th>
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="p in mostrar_datos">
+                <tr v-for="p in mostrar_datos" id="table">
                   <th>{{ p.name }}</th>
                   <td>{{ p.apellido }}</td>
                   <td>{{ p.dni }}</td>

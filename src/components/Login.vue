@@ -6,8 +6,7 @@
         <div id="body">
           <h3>Login </h3>
           <h4>__</h4>
-          <h6>Sign in and explore in-built apps of Drift.</h6>          
-
+          <h6>Sign in and explore in-built apps of Drift.</h6>
           <form id="login">            
             <div class="form-floating pb-3" id="correo">
               <input
@@ -50,8 +49,8 @@
             <router-link to="/Register" id="creat">
               Creat new account
             </router-link>
-
-           >
+            
+            
 
         <div class="icons">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" id="facebook">
